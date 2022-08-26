@@ -1,0 +1,106 @@
+.video_holder {
+    margin: auto;
+}
+
+.nav {
+    margin: auto;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.nav_two {
+    height: 246px;
+    margin: auto;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+
+.rating_holder {
+    color: #111;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .score_title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+} */
+
+.title_holder {
+    color: #111;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: justify;
+
+}
+
+.year_holder {
+    color: #111;
+    font-family: 'Roboto', sans-serif;
+}
+
+.synopsis_holder {
+    color: #111;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 1;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: left;
+    overflow-y: auto;
+    overflow-x: wrap;
+    max-width: 150%;
+    max-height: 500px;
+}
+
+body {
+    /* background-image: url("https://free4kwallpapers.com/uploads/originals/2022/03/28/anime-landscape-for-desktop-scenery-clouds-stars-buildings-wallpaper.jpg"); */
+    background-color: #c4c4c4;
+}
+
+.image_holder {
+    display: block;
+    max-width: 150%;
+}
+
+.pad_small {
+    padding: 5%;
+}
+
+.pad_medium {
+    padding: 10%;
+}
+
+.pad_large {
+    padding: 25%;
+}
+
+.pad_bottom {
+    padding-bottom: 2%;
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #c356e1 #6C757D;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 13px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #6C757D;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 3px none #6C757D;
+}
